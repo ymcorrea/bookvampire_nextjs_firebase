@@ -11,7 +11,7 @@ import useAutoResizeTextArea from "@/hooks/useAutoResizeTextArea";
 import Message from "./Message";
 import { OPENAI_MODELS, DEFAULT_OPENAI_MODEL } from "@/shared/Constants";
 import { OpenAIModel } from "@/types/Model";
-import { divide } from "lodash";
+import { divide } from "lodash"; 
 
 const shortcuts = [
   "Provide a summary of the book",
